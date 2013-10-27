@@ -18,3 +18,10 @@ An hadoop name node and two slaves on Ubuntu Precise (12.04)
 Now you can visit the following URLs in your browser:
 
 http://affy-master:50070/dfshealth.jsp
+
+You can SSH to the nodes using the following commands. Notice that the hostnames start with 'affy-' but that 
+the vagrant nodes do not have the prefix.
+
+vagrant ssh master
+vagrant ssh slave1
+vagrant ssh slave2
