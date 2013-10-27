@@ -10,7 +10,7 @@ vagrant ssh slave1 -c /vagrant/files/post_spinup_setup_ssh.sh
 vagrant ssh slave2 -c /vagrant/files/post_spinup_setup_ssh.sh
 
 vagrant ssh master -c "hadoop namenode -format"
-vagrant ssh master -c "start-dfs.sh"
+vagrant ssh master -c "start-all.sh"
 vagrant ssh master -c "hadoop fs -mkdir /user/vagrant"
 vagrant ssh master -c "hadoop fs -mkdir /user/accumulo"
 
