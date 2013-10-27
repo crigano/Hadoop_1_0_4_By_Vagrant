@@ -1,4 +1,4 @@
-Hadoop_1_0_4_By_Vagrant
+Hadoop v1.0.4 by Vagrant
 =======================
 
 An hadoop name node and two slaves on Ubuntu Precise (12.04)
@@ -25,3 +25,5 @@ the vagrant nodes do not have the prefix.
 vagrant ssh master
 vagrant ssh slave1
 vagrant ssh slave2
+
+Hadoop is installed at /home/vagrant/accumulo_home/bin/hadoop.
